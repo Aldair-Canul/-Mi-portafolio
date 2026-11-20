@@ -102,9 +102,6 @@ El sitio se publica en Cloudflare Workers cada vez que se hace `git push` a la r
 `main`: Cloudflare ejecuta `npm run build` y sube la carpeta `dist/` según
 `wrangler.jsonc`.
 
-El repositorio también incluye un workflow de GitHub Actions
-(`.github/workflows/deploy.yml`) para publicar en GitHub Pages.
-
 ## Autor
 
 **Aldair Eddiel Canul Cabrera**
